@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let currentFilm; 
     let availableTickets; 
 
-    fetch('http://localhost:3000/films')
+    fetch('https://my-json-server.typicode.com/Felix-kariukiiii/phase-1-code-challenge-3/films')
       .then(response => response.json())
       .then(films => {
 
